@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+    font-family:"Arial";
+    font-size:12px;
+    line-height:1.5;
+}
+
+.container{
+    margin:0 auto;
+}
