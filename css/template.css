@@ -1,6 +1,8 @@
 @charset "utf-8";
 /* CSS Document */
-
+html{
+	margin-top: -1px;
+}
 body{
     font-family:"Arial";
     font-size:12px;
@@ -9,4 +11,113 @@ body{
 
 .container{
     margin:0 auto;
+}
+
+table {
+	overflow: hidden;
+}
+p{
+	color:white;
+}
+/* kolommen verticaal en horizontaal*/
+.col-sm-3{
+	position: relative;
+}
+
+.row:hover{
+	background-color: #EA89BE;
+  	font-weight: bold;
+}
+
+.col-sm-3:hover:before{
+  	background-color: #EA89BE;
+  	position: absolute;
+	left: 0;
+	top: -5000px;
+	height: 10000px;
+	width: 100%;
+	z-index: -1;
+	content: "";
+}
+
+/*De eerste rij met verticale achtergrond kleurtjes*/
+.een{
+	content: '';
+	position: absolute;
+	background-color: #A997C8;
+	left: 0;
+	top: -50px;
+	height: 3000px;
+	width: 100%;
+	z-index: -1;
+}
+.twee{
+	content: '';
+	position: absolute;
+	background-color: #94CEE2;
+	left: 0;
+	top: -50px;
+	height: 3000px;
+	width: 100%;
+	z-index: -1;
+}
+.drie{
+	content: '';
+	position: absolute;
+	background-color: #73C7A3;
+	left: 0;
+	top: -50px;
+	height: 3000px;
+	width: 100%;
+	z-index: -1;
+}
+.vier{
+	content: '';
+	position: absolute;
+	background-color: #C4E57E;
+	left: 0;
+	top: -50px;
+	height: 3000px;
+	width: 100%;
+	z-index: -1;
+}
+.vijf{
+	content: '';
+	position: absolute;
+	background-color: #F68889;
+	left: 0;
+	top: -50px;
+	height: 3000px;
+	width: 100%;
+	z-index: -1;
+}
+.zes{
+	content: '';
+	position: absolute;
+	background-color: #94CEE2;
+	left: 0;
+	top: -50px;
+	height: 3000px;
+	width: 100%;
+	z-index: -1;
+}
+.zeven{
+	content: '';
+	position: absolute;
+	background-color: #73C7A3;
+	left: 0;
+	top: -50px;
+	height: 3000px;
+	width: 100%;
+	z-index: -1;
+}
+.acht{
+	content: '';
+	position: absolute;
+	background-color: #C4E57E;
+	left: 0;
+	top: -50px;
+	height: 3000px;
+	width: 100%;
+	z-index: -1;
 }
