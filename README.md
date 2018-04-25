@@ -1,5 +1,5 @@
-# agenda
+# Agenda
 Week agenda van Nao
 
-#Live demo:
+# Demo:
 http://i326486.hera.fhict.nl/naoagenda/index.php 
