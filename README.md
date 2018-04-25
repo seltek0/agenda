@@ -1,5 +1,8 @@
 # Agenda
-Week agenda van Nao
+Week agenda waarbij het gekoppeld is met de NAO robot.
 
-# Demo:
+# Beschrijving
+Dit is een digitaal pictobord van een volle week.
+
+# Demo
 http://i326486.hera.fhict.nl/naoagenda/index.php 
